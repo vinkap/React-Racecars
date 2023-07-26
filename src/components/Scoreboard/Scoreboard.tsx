@@ -1,6 +1,6 @@
-import React, { ChangeEvent, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Scoreboard.css';
-import { Drivers, IDriver } from '../../models/Driver';
+import { Drivers } from '../../models/Driver';
 import Driver from '../Driver/Driver';
 
 interface Prop {
